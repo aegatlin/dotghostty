@@ -13,3 +13,5 @@ keybind = alt+s=new_split:down
 
 keybind = alt+tab=goto_split:next
 keybind = alt+shift+tab=goto_split:previous
+
+keybind = global:cmd+backquote=toggle_quick_terminal
