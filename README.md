@@ -1,5 +1,7 @@
 # dotghostty
 
+[ghostty](https://ghostty.org/) is a terminal emulator.
+
 ## fresh install
 
 ```sh
