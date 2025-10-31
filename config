@@ -1,0 +1,3 @@
+keybind = ctrl+w>v=new_split:right
+keybind = alt+v=new_split:right
+keybind = alt+tab=goto_split:next
