@@ -1,0 +1,45 @@
+#####
+# Notes:
+# - comment syntax is `#` at the start of lines
+# - cmd+shift+, reloads config after changes
+#####
+
+#####
+# Basic Settings
+#####
+# open new windows maximized
+maximize = true
+# font size
+font-size = 16
+# Creates newlines for terminal tools that support multiline inputs
+keybind = shift+enter=text:\n
+# Theme
+theme = dark:Ghostty Default Style Dark,light:Atom One Light
+
+#####
+# Pane Management
+#####
+# vertical splits
+keybind = ctrl+w>v=new_split:right
+keybind = alt+v=new_split:right
+# horizontal splits
+keybind = ctrl+w>s=new_split:down
+keybind = alt+s=new_split:down
+# split cycling
+keybind = alt+tab=goto_split:next
+keybind = alt+shift+tab=goto_split:previous
+# maximize a split
+keybind = shift+escape=toggle_split_zoom
+# equalize splits
+keybind = alt+e=equalize_splits
+keybind = alt+equal=equalize_splits
+
+#####
+# Quick Terminal Settings
+#####
+# toggle quick terminal, `global` means whole os keybind
+keybind = global:ctrl+escape=toggle_quick_terminal
+# open centered
+quick-terminal-position = center
+# dimensions relative to screen size
+quick-terminal-size = 65%,65%
