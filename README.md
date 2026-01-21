@@ -7,6 +7,6 @@
 ```sh
 cd ~/.config
 
-# gh repo clone aegatlin/dotzed
+# gh repo clone aegatlin/dotghostty
 git clone git@github.com:aegatlin/dotghostty.git
 ```
