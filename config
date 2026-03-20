@@ -20,6 +20,12 @@ unfocused-split-opacity = 0.95
 unfocused-split-fill = #0000ff
 
 #####
+# SSH Settings
+#####
+# copy over inf
+shell-integration-features = ssh-terminfo,ssh-env
+
+#####
 # Pane / Split Management
 #####
 # goto split
