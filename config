@@ -22,7 +22,7 @@ unfocused-split-fill = #0000ff
 #####
 # SSH Settings
 #####
-# copy over inf
+# improves the ssh experience
 shell-integration-features = ssh-terminfo,ssh-env
 
 #####
