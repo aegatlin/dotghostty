@@ -18,6 +18,8 @@ theme = dark:Ghostty Default Style Dark,light:Atom One Light
 # Split UI
 unfocused-split-opacity = 0.95
 unfocused-split-fill = #0000ff
+# Rename tab
+keybind = alt+t=prompt_tab_title
 
 #####
 # SSH Settings
